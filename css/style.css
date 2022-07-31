@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+  
+header{
+
+    background-image: url("../image/Burger-BG1.png");   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #2d3950;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-right: 10px;
+   
+}
+  
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+  
+.nav-item {
+    margin-left: 4x;
+    transition: .3s all ease-in-out;
+}
+    
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#e76128;
+}
+
+.menu{
+	margin-right: 40px;
+	text-align: right;
+    padding-top: 10px;
+}
+.menu-contact{
+	margin-bottom: 10px;
+}
+.menu-contact img{
+	vertical-align: middle;	
+}
+.menu-contact span{
+	margin-left: 10px;
+	font-family: 'Montserrat', sans-serif;
+ 	font-size: 18px;
+ 	color: #3d2514; 
+ 	font-weight: 600;
+ 	vertical-align: middle;	
+}
+
+
+.b-des{
+    align-items: center;
+    margin-top: 15%;
+    padding-top: 20px;
+    
+}
+
+.b-des h6{
+    
+    border: dashed;   
+    display: inline-block;
+    padding: 15px 20px;   
+    text-transform: uppercase;
+    color: #513c2a;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+}
+
+.b-des h1{
+    
+    font-weight: 900; 
+    color: #513c2a;
+    font-size: 100px;
+    text-shadow: 2px 5px 1px #fff;
+    
+}
+
+.b-des h4{
+    
+    text-shadow: 2px 5px 1px #fff;
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+
+.b-dis img{
+	max-width: 110%;
+	height: auto;
+}
+        
+.price {
+    width: 135px;
+    height: 135px;
+    border-radius: 80px;
+    border: 1px solid red;
+    background-color: red;
+    position: absolute;
+    bottom: 18%;
+    right: 36%;
+}
+   
+.dash-price {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: dashed;
+    text-align: center;
+    padding: 25px 0px;
+    letter-spacing: 1px;
+}
+    
+.dash-price h1 {
+    
+    color: white;
+    font-size: 28px;
+        
+}
+    
+.dash-price span {
+    font-size: 20px;
+}
+
+.food{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.food .left{
+    width: 100%;
+    margin-right: 19px;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+.food .right{
+    width: 100%;
+    margin-left: 5px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.food .right img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.food .left img{
+    width: 100%;
+}
+.food .left h3{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color:  #fff;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+.food .left h1{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    color: #fff;
+    text-shadow: none;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.food .right .top{
+    position: relative;
+    
+    padding-top: 5px;
+}
+.food .right .top h3{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+.food .right .top h1 {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    color: #fff;
+    font-size: 30px;
+    
+}
+.food .right .bottom{
+    position: relative;
+    margin-top: 12px;
+}
+.food .right .bottom h3{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    color: #fff;
+    font-size: 20px;
+    
+}
+.food .right .bottom h1 {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    color: #fff;
+    font-size: 30px;
+    
+}
+.food .action{
+    text-align: center;
+}
+.food .action button{
+    color: #3d2514;
+    background: #ffc045;
+    border: 1px solid transparent;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.choose {
+    margin-bottom: 80px;
+}
+.choose .text{
+    text-align: center;
+    padding-bottom: 65px;
+}
+.choose .text h2{
+    color: #3d2514;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.choose .text p{
+    color: #3d2514;
+    padding: 0 30px;
+}
+.choose .burger{
+    align-items: center;
+    margin-top: 10px;
+}
+.choose .burger .item{
+    text-align: center;
+}
+.choose .burger .item img{
+    width: 80%;
+}
+.choose .burger .item h3{
+    color: #3d2514;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+.choose .burger .item P{
+    color: #3d2514;
+    padding:0px 50px;
+    margin-bottom: 30px;
+}
+.choose .burger .item button{
+    color: white;
+    background: #bf2222;
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    transition-duration: all 1s ease-in-out ;
+}
+.choose .burger .item button:hover{
+    background: #fff;
+    color: #bf2222;
+    border-color: #bf2222;
+}
+
+.event-slide{
+    width: 100%;
+    box-shadow: -3px 11px 20px 3px rgba(0, 0, 0, 0.75);
+    padding: 20px 20px;
+      
+}
+
+.slide{
+    display: flex;
+    margin: 10px 10px;
+}
+
+.slide-card{
+    
+}
+.slide-card h3 {
+    color: #3d3d3d;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin: 10px 10px;
+}
+
+.slide-card h2 {
+    color: #3d2514;
+    font-size: 45px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+
+.slide-card p {
+    color: #3d3d3d;
+    font-size: 18px;
+    margin: 10px 10px;
+    text-align: justify;
+    
+}
+
+.box-pic{
+    width: 95%;
+    display: block;
+    margin-left: 10px;
+   
+}
+
+.box-pic img{
+    width: 100%;
+    margin: 10px 10px;
+}
+
+
+.owl-nav{
+    display: none;
+    
+}
+.owl-dots{
+    display: flex;
+    justify-content: left;
+    margin: 40px;
+}
+.owl-dots .owl-dot{
+    margin: 5px;
+}
+.owl-dots .owl-dot span{
+    display: block;
+    height: 10px;
+    width: 10px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #bf2222;
+}
+.owl-dots .active span{
+    display: block;
+    height: 12px;
+    width: 12px;
+    background: red;
+    border-radius: 50%;
+}
+
+.contact-area{
+    padding: 80px 0;
+    position: relative;
+}
+.contact-area .bt1 img {
+	position: absolute;
+	left: -5%;
+	top: -7%;
+	width: 25%;
+}
+.contact-area .bt3 img {
+	position: absolute;
+	right: 0%;
+	top: 45%;
+	width: 25%;
+}
+.contact-area .bt2 img {
+	position: absolute;
+	left: 5%;
+	top: 140%;
+	width: 16%;
+}
+
+.reservation{
+    min-height: 90vh;
+}
+.reservation_title {
+    text-align: center;
+    
+}
+
+.reservation_title h3 {
+    color: #3d2514;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.reservation_title h2 {
+    color: #3d2514;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.reservation_form input {
+    border: 1px solid #bebebe;
+    font-size: 21px;
+    height: 50px;
+    padding-left: 20px;
+    width: 45%;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+button.find {
+    background: #bf2222;
+    width: 45%;
+    color: #fff;
+    border: 0px;
+    line-height: 50px;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+button.find:hover{
+    background: #fff;
+    color: #bf2222;
+    border: 1px solid #bf2222;
+}
+
+
+section.footer_area {
+    background: url(../image/Burger-BG2.png);
+    width: 90%;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer_logo p {
+    color: #fff;
+    padding-top: 50px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.address_list {
+    padding-top: 130px;
+    float: right;
+}
+
+.location span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.location i{
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.email span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 20px;
+   
+}
+.email i{
+    color: #fff;
+    font-size: 25px;
+    
+}
+
+
+.copy_right p {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-top: 180px;
+}
+
+
+.social_icon {
+    float: right;
+    font-size: 30px;
+    padding-top: 180px;
+    padding-right: 30px;
+    padding-left: 10pz;
+    margin-right: 10px;
+    margin-left: 15px;
+    list-style: none;
+    align-items: center;
+}
+
+
+.social_icon a i {
+    background-color: #fff;
+    color: #000;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    border: 1px solid #bf2222;
+    border-radius: 100%;
+   
+}
+
+.social_icon a i:hover{
+    background: #fff;
+    color: #e6184f;
+}
+
+

@@ -1,0 +1,9 @@
+@media(max-width:575px){
+    .contact-area .bt2 img {
+        position: absolute;
+        left: 5%;
+        top: 49%;
+        width: 16%;
+    }
+   
+}
